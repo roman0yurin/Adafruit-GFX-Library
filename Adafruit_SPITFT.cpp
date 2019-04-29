@@ -30,6 +30,7 @@
  *
  * BSD license, all text here must be included in any redistribution.
  */
+#if 0 //данный файл описывает аппаратный уровень, который в нашем случае сильно отличается.
 
 #if !defined(__AVR_ATtiny85__) // Not for ATtiny, at all
 
@@ -2123,3 +2124,5 @@ inline void Adafruit_SPITFT::TFT_RD_LOW(void) {
 }
 
 #endif // end __AVR_ATtiny85__
+
+#endif //0

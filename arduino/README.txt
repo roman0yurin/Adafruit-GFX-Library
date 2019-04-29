@@ -1,0 +1,1 @@
+Файлы в этой папке взяты из платформы https://github.com/esp8266/Arduino
