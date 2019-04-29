@@ -18,6 +18,7 @@ Author: Mikal Hart
 #define __PGMSPACE_H_ 1
 
 #include <inttypes.h>
+#include "CurrentMCU.h"
 
 #define PROGMEM
 #define PGM_P  const char *
@@ -39,6 +40,9 @@ typedef uint64_t prog_uint64_t;
 
 typedef const void* int_farptr_t;
 typedef const void* uint_farptr_t;
+
+#define HIGH GPIO_PIN_SET
+#define LOW GPIO_PIN_RESET
 
 #define memchr_P(s, c, n) memchr((s), (c), (n))
 #define memcmp_P(s1, s2, n) memcmp((s1), (s2), (n))

@@ -8,4 +8,6 @@ file(GLOB ADD_SRC
 )
 additionalSources("${ADD_SRC}")
 additionalImport(${CMAKE_CURRENT_SOURCE_DIR})
+addSubmodule(../../micro/kernel/mcore)
+
 configureModule()
