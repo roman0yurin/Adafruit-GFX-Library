@@ -4,7 +4,7 @@
 #ifndef FONT5X7_H
 #define FONT5X7_H
 
-#include "LogProperties.h"
+#include "core/log/clogger.h"
 
 #ifdef __AVR__
  #include <avr/io.h>
